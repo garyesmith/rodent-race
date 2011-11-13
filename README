@@ -1,0 +1,13 @@
+
+- RODENT RACE -
+
+By Gary Smith (http://garysmith.ca)
+November, 2011
+
+Rodent Race is a demonstration HTML5, CSS3, and jQuery arcade game I coded to test out the feasibility of creating games with these tools.  It's playable, but not very exciting.
+
+To play the game, just keep the directory structure intact and then run index.html in a reasonably new browser that supports HTML5.  Depending on your browser config, the audio may not work when you're running locally.
+
+Or, visit http://garysmith.ca/2011/11/my-first-html5-game-rodent-race/ and play it on my server, complete with high scores.
+
+USAGE: You are free to learn what you can from this code and reuse portions in your own work. But if you are reusing or adapting the vast majority of this code intact, please give me credit and a link back to garysmith.ca.

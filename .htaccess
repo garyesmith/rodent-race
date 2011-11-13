@@ -1,0 +1,7 @@
+
+RewriteEngine on
+RewriteBase /
+
+AddType audio/ogg .ogg
+AddType x-mapp-php5 .php
+

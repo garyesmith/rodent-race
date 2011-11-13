@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* Game Styles */
+
+body, html, canvas {
+	padding: 0;
+	margin: 0;
+	background-color: #444444;
+}
+canvas#game {
+	margin: 0;
+	border: 1px solid black;
+	width: 320px; 
+	min-width: 320px;
+	height: 356px;
+    background: #dddddd url(../images/wait.gif) center center no-repeat;    
+}
+#game-container {
+	width: auto;
+	height: auto;
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+#game-container div {
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	display: none;
+}
+#game-container #play {
+	width: 125px;
+	height: 78px;
+	left: 173px;
+	top: 257px;
+	background: transparent url(../images/play.png) top left no-repeat;
+	background-size: 100%;	
+}	
+#game-container #play:hover {
+	background-position: -1px -90px;	
+	cursor: pointer;
+}
+#game-container #how-to-play {
+	width: 114px;
+	height: 16px;
+	left: 30px;
+	top: 282px;
+	background: transparent url(../images/how-to-play.png)  0 -16px no-repeat;
+	background-size: 100%;	
+}
+#game-container #how-to-play:hover {
+	background-position: 0 0;	
+	cursor: pointer;
+}
+#game-container #how-to-play-close {
+    display: none;
+    width: 200px;
+    height: 110px;
+    top: 240px;
+    left: 60px;       
+    cursor: pointer;
+    background-color: transparent;
+	background-image: url(images/transparent.git); /* for stupid ol' IE */	
+}
+#game-container #sound-switch {
+	position: absolute;
+	top: 167px;
+	left: 33px;
+	width: 30px;
+	height: 30px;
+	display: block;
+	cursor: pointer;
+	display: none;
+	z-index: 999;
+	background-color: transparent;	
+	background-image: url(images/transparent.git); /* for stupid ol' IE */
+}
+#game-container #sound-switch #sound-off {
+	display: none;
+}
+#game-container #tweet {
+	background-color: yellow;
+	width: 156px;
+	height: 25px;
+	position: absolute;
+	top: 190px;
+	left: 86px;
+	background: #1f90c0 url(../images/tweet.png) 10px 4px no-repeat;
+	border: 1px solid #19749b;
+	border-radius: 4px 4px 4px 4px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	font-size: 11px;
+	line-height: 14px;
+	text-align: left;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+}
+#game-container #tweet a {
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	font-size: 12px;
+	line-height: 14px;
+	text-decoration: none !important;
+	display: block;
+	padding: 6px 0 0 36px;
+	width: 100%;
+	height: 100%;
+}
+#game-container #tweet:hover {
+	background-color: #0e80b0 !important;
+	cursor: pointer;
+}
+#game-container #play-again {
+	width: 178px;
+	height: 75px;
+	left: 77px;
+	top: 260px;
+	background: transparent url(../images/play-again.png) top left no-repeat;
+	cursor: pointer;
+}	
+#game-container #play-again:hover {
+	top: 261px;
+	left: 78px;
+}
